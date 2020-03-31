@@ -27,7 +27,7 @@ RCT_EXPORT_VIEW_PROPERTY(zIndex, NSInteger)
 RCT_EXPORT_VIEW_PROPERTY(color, MAPinAnnotationColor)
 RCT_EXPORT_VIEW_PROPERTY(image, NSString)
 
-RCT_EXPORT_VIEW_PROPERTY(onAMapPress, RCTBubblingEventBlock)
+RCT_EXPORT_VIEW_PROPERTY(onAMapMarkerPress, RCTBubblingEventBlock)
 RCT_EXPORT_VIEW_PROPERTY(onInfoWindowPress, RCTBubblingEventBlock)
 RCT_EXPORT_VIEW_PROPERTY(onAMapDragStart, RCTBubblingEventBlock)
 RCT_EXPORT_VIEW_PROPERTY(onAMapDrag, RCTBubblingEventBlock)

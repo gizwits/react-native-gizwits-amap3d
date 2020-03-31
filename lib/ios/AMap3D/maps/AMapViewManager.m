@@ -121,8 +121,8 @@ RCT_EXPORT_METHOD(animateTo:(nonnull NSNumber *)reactTag params:(NSDictionary *)
 
 - (void)mapView:(AMapView *)mapView didSelectAnnotationView:(MAAnnotationView *)view {
     AMapMarker *marker = [mapView getMarker:view.annotation];
-    if (marker.onAMapPress) {
-        marker.onAMapPress(nil);
+    if (marker.onAMapMarkerPress) {
+        marker.onAMapMarkerPress(nil);
     }
 }
 

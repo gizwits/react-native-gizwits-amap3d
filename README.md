@@ -196,6 +196,8 @@ yarn run-ios
 - 该项目不打算做数据接口，地理/逆地理编码、路径规划、搜索等功能请使用 [Web 服务](https://lbs.amap.com/api/webservice/summary)。
 - 尽量使用设备进行测试，在模拟器可能存在一些问题（常见的是 Android 模拟器因为缺少硬件加速而导致闪退）。
 
+- 安卓9以上，MapView.Marker的icon赋值的View，需要设置style的backgroundColor属性，否则会出现更新不实时的情况。
+
 
 [npm]: https://www.npmjs.com/package/react-native-amap3d
 [version-badge]: https://badge.fury.io/js/react-native-amap3d.svg
